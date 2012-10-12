@@ -1,0 +1,1 @@
+<footer><hr />Copyright by ftbastler!</footer>
