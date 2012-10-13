@@ -9,9 +9,27 @@
 </head>
 <body>
 <div class="container">
-  <?php include "/includes/navbar.php"; ?>
-  <?php include "/includes/stats-gen.php"; ?>
-  <?php include "/includes/footer.php"; ?>
+  <div class="container-fluid">
+    <?php include "/includes/navbar.php"; ?>
+    <div class="row-fluid">
+      <div class="span3">
+      <div class="well affix" style="width: 12%;">
+        <ul class="nav nav-list">
+        <li class="nav-header">Winners</li>
+          <li><a href="#lwinner">Latest</a></li>
+          <li><a href="#twinner">Top 10</a></li>
+          <li class="nav-header">Deaths</li>
+          <li><a href="#ldeath">Latest</a></li>
+          <li><a href="#tdeath">Top 10</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="span9">
+        <?php include "/includes/stats-gen.php"; ?>
+      </div>
+    </div>
+    <?php include "/includes/footer.php"; ?>
+  </div>
 </div>
 </body>
 </html>

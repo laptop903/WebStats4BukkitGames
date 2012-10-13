@@ -15,7 +15,7 @@ $sql_database = "";
 
 
 //DON'T EDIT ANYTHING BEYOND HERE
-//mysql_connect($sql_host, $sql_user, $sql_pass) or die(mysql_error());
-//mysql_select_db($sql_database) or die(mysql_error());
+mysql_connect($sql_host, $sql_user, $sql_pass) or die(mysql_error());
+mysql_select_db($sql_database) or die(mysql_error());
 
 ?>
