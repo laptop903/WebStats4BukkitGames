@@ -3,3 +3,25 @@
 .navbar {
 	margin-top: 10px;
 }
+
+.subhead {
+    background-color: #767D80;
+    background-image: linear-gradient(#004D9F, #049CD9);
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    min-width: 940px;
+	border-radius: 15px;
+}
+
+.jumbotron .inner {
+    background: url("../img/grid-18px.png") repeat scroll center top transparent;
+    padding: 45px 0;
+}
+
+.subhead .inner-text {
+	color: #FFF;
+	font-size: 18px;
+	margin: 30px;
+}

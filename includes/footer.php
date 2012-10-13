@@ -1,1 +1,1 @@
-<footer><hr />Copyright by ftbastler!<br /></footer>
+<footer><hr />&copy; ftbastler<br /></footer>

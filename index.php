@@ -10,7 +10,14 @@
 <body>
 <div class="container">
   <?php include "/includes/navbar.php"; ?>
-  
+  <div class="jumbotron subhead">
+    <div class="inner">
+      <div class="inner-text">
+        <h1><?php echo $title; ?></h1>
+        <p><?php echo $desc; ?></p>
+      </div>
+    </div>
+  </div>
   <?php include "/includes/footer.php"; ?>
 </div>
 </body>
