@@ -22,6 +22,6 @@ die();
 mysql_connect($sql_host, $sql_user, $sql_pass) or error(mysql_error());
 mysql_select_db($sql_database) or error(mysql_error());
 
-if(!isset($server) or !isset($server_motd_progress))
+if(!isset($servers) or !isset($server_motd_progress))
 	error("$server or $server_motd_progress is not set!");
 ?>
