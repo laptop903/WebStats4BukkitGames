@@ -11,7 +11,7 @@ function error($msg) {
 </head>
 <body>
 <div class="container"> <br />
-  <div class="alert alert-error"> <strong>Error!</strong> Check your config.php! </div>
+  <div class="alert alert-error"> <strong>Error!</strong> Check your config.php!</div>
   <code><?php echo $msg; ?></code> </div>
 </body>
 </html>
@@ -23,5 +23,5 @@ mysql_connect($sql_host, $sql_user, $sql_pass) or error(mysql_error());
 mysql_select_db($sql_database) or error(mysql_error());
 
 if(!isset($servers) or !isset($server_motd_progress))
-	error("$server or $server_motd_progress is not set!");
+	error("$servers or $server_motd_progress is not set!");
 ?>
