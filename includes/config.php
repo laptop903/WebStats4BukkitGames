@@ -14,7 +14,8 @@ $sql_user = "";
 $sql_pass = "";
 $sql_database = "";
 
-
+//How many rows do you want to see?
+$limit = 10;
 
 
 //DON'T EDIT ANYTHING BEYOND HERE
