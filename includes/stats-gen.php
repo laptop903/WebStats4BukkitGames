@@ -36,7 +36,7 @@
       <?php
 
 		$result = mysql_query("SELECT REF_WINNER, NAME, COUNT(*) AS WinCount FROM GAMES JOIN PLAYERS on GAMES.REF_WINNER = PLAYERS.ID GROUP BY REF_WINNER ORDER BY WinCount DESC LIMIT ".$limit);
-		
+		$num = 0;
 		while($row = mysql_fetch_object($result)) {
 			$num++;
 			echo "<tr>";
