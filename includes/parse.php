@@ -1,5 +1,6 @@
 <?php
 
+if(!function_exists('error')) {
 function error($msg) { 
 ?>
 <html>
@@ -17,6 +18,7 @@ function error($msg) {
 </html>
 <?php	
 die();
+}
 }
 
 mysql_connect($sql_host, $sql_user, $sql_pass) or error(mysql_error());
